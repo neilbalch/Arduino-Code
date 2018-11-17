@@ -3,7 +3,7 @@ const uint8_t ledPin = PB5;
 // Zero quantity used to reset the timer intially and after compare interrupt handled
 const uint16_t t1_load = 0;
 // T1 timer will rise to this quantity before triggering the compare interrupt
-const uint16_t t1_comp = 0.5 /*s*/ * 16000000 /*MHz*/ / 256 /*prescaler*/;
+const uint16_t t1_comp = 0.5 /*s*/ * 16000000 /*Hz*/ / 256 /*prescaler*/;
 
 void setup() {
   // Set LED pin to output
