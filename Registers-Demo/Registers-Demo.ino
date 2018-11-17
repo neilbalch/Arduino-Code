@@ -12,7 +12,7 @@ void setup() {
   // Rest Timer1 control register A
   TCCR1A = 0; // TimerCounterControlRegister1A
 
-  // Set Timer1 prescalar to 256
+  // Set Timer1 prescaler to 256
   TCCR1B |= (1 << CS12);  // TimerCounterControlRegister1B
   TCCR1B &= ~(1 << CS11); // TimerCounterControlRegister1B
   TCCR1B &= ~(1 << CS10); // TimerCounterControlRegister1B
