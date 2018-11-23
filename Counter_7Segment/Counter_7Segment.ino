@@ -1,4 +1,5 @@
 // Objective: Use a shift register to control a 7 segment LED display, incrementing the number 0-9
+
 // Completed: Works
 
 int states[10] = {0x01, 0xC7, 0x22, 0x82, 0xC4, 0x88, 0x08, 0xC3, 0x00, 0x80};
